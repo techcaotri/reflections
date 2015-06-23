@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do that?
+	When initializing a repository, git creates a hidden directory ".git" which contains meta-data for the history of files. We need to do that because we must tell git that we're now using git to control the versions of files in this folder.
