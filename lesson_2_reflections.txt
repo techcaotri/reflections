@@ -6,3 +6,15 @@ How is the staging area different from the working directory and the repository?
 
 How can you use the staging area to make sure you have one commit per logical change?
 	You can use the command: "git diff" to compare between your working directory and staging area, and command "git diff --staged" to compare between staging area and you latest commit to confirm that.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Some situations when branches would be helpful such as:
+		+ When you want to experiment something but you still want to continue fix bugs of previous version concurrently.
+		+ When you have multiple approaches to improve your program and you want to experiment each of them
+	Branches help because it clones the master repository to a new copy and if you switch to that branch (clone) everything you commit will be submitted to the new branch.
+	(Git branch help because it keeps you project organized, particularly, when you shared your project publicly. You'll have your master branch, and that would be your production quality branch which never breaks, always works. And then you could have a development branch where active work is taking place on your project. Then a lot of times you'll have an experimental branch or maybe some unique feature branches. Those are things you're working on and you fully expect them to break, and you want to share those with the public but with the understanding that this isn't the production quality works just yet.)
+	
+	+ Keep the project organized when sharing the project publicly
+	+ Master branch is your production quality branch which never breaks, always works.
+	+ Development branch is where your active works is taking place on the project.
+	+ Experimental or unique feature branches.
