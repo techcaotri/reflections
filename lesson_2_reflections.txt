@@ -18,3 +18,6 @@ What are some situations when branches would be helpful in keeping your history 
 	+ Master branch is your production quality branch which never breaks, always works.
 	+ Development branch is where your active works is taking place on the project.
 	+ Experimental or unique feature branches.
+
+How do the diagrams help you visualize the branch structure?
+	Because it visualizes all the commits from that you branched off. Thanks to the diagram, you can know what feature a certain branch is missing.
